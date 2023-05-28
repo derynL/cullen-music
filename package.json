@@ -1,0 +1,17 @@
+{
+  "name": "cullen-music",
+  "version": "1.0.0",
+  "description": "1 page site for CMM",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "DL Cullen",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "9.4.3",
+    "typescript": "5.0.4",
+    "webpack": "5.84.1",
+    "webpack-cli": "5.1.1"
+  }
+}
