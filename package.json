@@ -1,13 +1,11 @@
 {
-  "name": "flowbite-next-starter",
+  "name": "cullen-music",
   "version": "0.0.0",
-  "homepage": "https://github.com/tulupinc/flowbite-next-starter",
-  "bugs": "https://github.com/tulupinc/flowbite-next-starter/issues",
   "license": "MIT",
-  "author": "Conner Davis <conner@tulup.io>",
+  "author": "DL Cullen",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tulupinc/flowbite-next-starter.git"
+    "url": "https://github.com/derynL/cullen-music.git"
   },
   "scripts": {
     "build": "next build",
@@ -19,6 +17,7 @@
   "dependencies": {
     "flowbite": "^1.5.5",
     "flowbite-react": "^0.3.7",
+    "flowbite-typography": "1.0.3",
     "next": "^13.0.6",
     "react": "18",
     "react-dom": "18",
@@ -60,13 +59,6 @@
       "plugin:react-hooks/recommended",
       "plugin:tailwindcss/recommended"
     ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "project": "./tsconfig.json"
-    },
     "root": true,
     "rules": {
       "no-undef": "off",
