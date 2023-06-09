@@ -1,0 +1,9 @@
+.dark .dark\:bg-Pic-dark {
+  background-image: url('/cfm-0bgi.png');
+  background-size: 100% 100%;
+}
+
+.bg-Pic {
+  background-image: url('/cfm-0bg.png');
+  background-size: 100% 100%;
+}

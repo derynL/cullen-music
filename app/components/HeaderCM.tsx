@@ -10,11 +10,11 @@ const HeaderCM: FC<Record<string, never>> = function () {
           <Navbar.Link href='/' active>
             Home
           </Navbar.Link>
-          <Navbar.Link href='/'>About</Navbar.Link>
+          <Navbar.Link href='/About'>About</Navbar.Link>
           <Navbar.Link href='/'>Listen</Navbar.Link>
           <Navbar.Link href='/'>Contact</Navbar.Link>
         </Navbar.Collapse>
-        <DarkThemeToggle />
+        <DarkThemeToggle id='theme-toggle' />
       </Navbar>
     </header>
   );

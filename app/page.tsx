@@ -2,12 +2,14 @@
 
 import FooterCM from './components/FooterCM';
 import HeaderCM from './components/HeaderCM';
+import HomeTitle from './components/HomeTitle';
+import MainImage from './components/MainImage';
 
 export default function Index(): JSX.Element {
   return (
     <>
       <HeaderCM />
-      <div className='flex dark:bg-gray-900'>
+      <div className='flex'>
         <main className='order-2 m-4 flex-[1_0_16rem]'>
           <MainPage />
         </main>
@@ -29,19 +31,9 @@ function MainPage(): JSX.Element {
       </section>
       <section className='w-5/6 mt-24 h-5/6 justify-center'>
         <div className='grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-2'>
-          <div className='pt-28'>
-            <h1 className='mb-6 text-gray-600 text-4xl dark:text-gray-200'>
-              "Music is the wine that fills the cup of silence."
-            </h1>
-            <h3 className='text-gray-500 dark:text-gray-300'>- Robert Fripp</h3>
-          </div>
+          <HomeTitle />
           <div className='justify-items-start'>
-            <img
-              alt='Cullen Music'
-              src='/cfm-0bg.png'
-              width={600}
-              height={600}
-            />
+            <MainImage />
           </div>
         </div>
       </section>

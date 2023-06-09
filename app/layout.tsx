@@ -10,7 +10,7 @@ const RootLayout: FC<PropsWithChildren> = function ({ children }) {
         <title>Cullen Music</title>
         <link rel='icon' href='/favicon.ico' />
       </head>
-      <body>
+      <body className='dark:text-gray-300 dark:bg-gray-900'>
         <FlowbiteContext>{children}</FlowbiteContext>
       </body>
     </html>
